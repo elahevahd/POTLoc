@@ -1,7 +1,7 @@
 # POTLoc
 ### Official Pytorch Implementation of '[POTLoc: Pseudo-Label Oriented Transformer for Point-Supervised Temporal Action Localization](https://arxiv.org/pdf/2310.13585.pdf)' 
 
-![architecture](https://user-images.githubusercontent.com/16102333/128889635-f07218d9-770a-4ece-a384-656e00b2794e.png)
+![architecture](main_figure.png)
 
 > **POTLoc: Pseudo-Label Oriented Transformer for Point-Supervised Temporal Action Localization**<br>
 > Elahe Vahdani, Yingli Tian
