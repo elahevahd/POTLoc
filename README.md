@@ -21,12 +21,12 @@ self-training strategy. The base model begins by generating action proposals sol
 
 ### Depencencies
 Instructions for Setting Up the Environment:
-    ~~~~
+   
     $ conda env create -f environment.yml
     $ conda activate environment_name
     $ pip install -r pip_requirements.txt
-    ~~~~
-    If you encounter any version conflicts or other installation issues, they may need to be addressed manually. This can involve adjusting package versions or resolving dependencies.
+   
+If you encounter any version conflicts or other installation issues, they may need to be addressed manually. This can involve adjusting package versions or resolving dependencies.
 
 ### Data Preparation
 1. Prepare [THUMOS'14](https://www.crcv.ucf.edu/THUMOS14/) dataset.
