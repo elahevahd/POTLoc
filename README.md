@@ -16,8 +16,7 @@ self-training strategy. The base model begins by generating action proposals sol
 ### Recommended Environment
 * Python 3.8 
 * Pytorch 1.8.1+cu101
-* Tensorflow 2.11.0
-* CUDA 
+* CUDA 10.1
 
 ### Depencencies
 Instructions for Setting Up the Environment:
