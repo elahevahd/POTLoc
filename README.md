@@ -33,7 +33,7 @@ If you encounter any version conflicts or other installation issues, they may ne
 
 2. Use two-stream I3D networks to extract features.
     - We recommend extracting features using [this repo](https://github.com/piergiaj/pytorch-i3d).
-    - For convenience, we have provided the features we used. You can find them (here).
+    - For convenience, we have provided the features we used. You can find them [THUMOS14 Features](https://drive.google.com/drive/folders/18YHWf5UMMjxq1FuGDe7tTRlUMtUI36PG?usp=drive_link).
     
 3. Place the features within the 'data' folder.
     - Please ensure that the data structure adheres to the following format:
