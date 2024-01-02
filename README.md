@@ -29,27 +29,26 @@ If you encounter any version conflicts or other installation issues, they may ne
 
 ### Data Preparation
 1. Prepare [THUMOS'14](https://www.crcv.ucf.edu/THUMOS14/) dataset.
-    - We excluded three test videos (270, 1292, 1496) as previous work did.
+    - Following previous work, three test videos (numbers 270, 1292, and 1496) have been excluded.
 
-2. Extract features with two-stream I3D networks
+2. Use two-stream I3D networks to extract features.
     - We recommend extracting features using [this repo](https://github.com/piergiaj/pytorch-i3d).
-    - For convenience, we provide the features we used. You can find them (here)
+    - For convenience, we have provided the features we used. You can find them (here).
     
-3. Place the features inside the `dataset` folder.
-    - Please ensure the data structure is as below.
+3. Place the features within the 'data' folder.
+    - Please ensure that the data structure adheres to the following format:
    
 ~~~~
-├── dataset
-   └── THUMOS14
-       ├── gt.json
+├── data
+   └──thumos
        ├── split_train.txt
        ├── split_test.txt
        ├── fps_dict.json
        ├── point_gaussian
            └── point_labels.csv
-       └── features
-           ├── train
-           └── test
+       ├── i3d_features
+       ├── annotations
+
 ~~~~
 
 ## Usage
