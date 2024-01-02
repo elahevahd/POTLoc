@@ -56,7 +56,7 @@ If you encounter any version conflicts or other installation issues, they may ne
 ### Running
 You can easily train and evaluate the model by running the script below.
 If you want to try other training options, please refer to `config.py`.
-The pre-trained model can be found [Models](https://drive.google.com/drive/folders/1o1TxJOkUcE7nFvxaK5pLmeG__7JsMiY1?usp=drive_link).
+The trained models can be found here: [Models](https://drive.google.com/drive/folders/1o1TxJOkUcE7nFvxaK5pLmeG__7JsMiY1?usp=drive_link).
 ~~~~
 $ python run.py
 ~~~~
