@@ -64,11 +64,13 @@ $ python run.py
 If you find this code useful, please cite our paper.
 
 ~~~~
-@article{vahdani2023potloc,
-  title={POTLoc: Pseudo-Label Oriented Transformer for Point-Supervised Temporal Action Localization},
+@article{vahdani2024potloc,
+  title={POTLoc: Pseudo-label Oriented Transformer for point-supervised temporal action Localization},
   author={Vahdani, Elahe and Tian, Yingli},
-  journal={arXiv preprint arXiv:2310.13585},
-  year={2023}
+  journal={Computer Vision and Image Understanding},
+  pages={104044},
+  year={2024},
+  publisher={Elsevier}
 }
 ~~~~
 
