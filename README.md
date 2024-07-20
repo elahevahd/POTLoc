@@ -46,7 +46,7 @@ If you encounter any version conflicts or other installation issues, they may ne
        ├── point_gaussian
            └── point_labels.csv
        ├── i3d_features
-       ├── annotations
+       ├── gt
 
 ~~~~
 
